@@ -6,7 +6,7 @@
     "author": "Romain Moranges",
     "repository": {
         "type": "git",
-        "url": "ENTER GIT REPO URL"
+        "url": "https://github.com/romainmoranges/m6-replay-only/tree/init"
     },
     "scripts": {
         "start": "xt-build -e dev -w",
