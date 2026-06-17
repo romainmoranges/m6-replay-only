@@ -1,3 +1,0 @@
-main > div > section:not(:nth-child(7)) {
-    display: none;
-}
