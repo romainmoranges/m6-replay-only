@@ -1,7 +1,7 @@
 {
     "name": "m6-replay-only",
     "description": "Une extensiosn qui masque les sections indésirables",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "homepage": "http://chrome.google.com/webstore",
     "author": "Romain Moranges",
     "repository": {
@@ -14,7 +14,7 @@
         "build": "xt-build -e prod",
         "build:firefox": "xt-build -e prod -p firefox",
         "clean": "xt-clean",
-        "docs": "xt-docs",
+        "docs": "xt-docs --config docs-config.json",
         "test": "xt-test",
         "coverage": "nyc --reporter=lcov npm run test",
         "sync": "xt-sync"
