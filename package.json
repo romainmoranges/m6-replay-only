@@ -1,7 +1,7 @@
 {
     "name": "m6-replay-only",
     "description": "Une extensiosn qui masque les sections indésirables",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "homepage": "http://chrome.google.com/webstore",
     "author": "Romain Moranges",
     "repository": {
