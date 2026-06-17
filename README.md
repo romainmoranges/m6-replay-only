@@ -1,16 +1,39 @@
-# m6-replay-only
-Une extension chrome qui masque les sections indésirables 
+# M6 Replay Only
 
-## Contexte: 
+Une extensiosn qui masque les sections indésirables
 
-Coupe du monde de la fifa 2026. La page replay m6 offre plusieurs sections avant les replay, et ces sections peuvent spoil le résultat. 
+## Development 
 
-on va essayer de masquer ces éléments pour éviter que l'utilisateur aient lu une info indésirable. 
+This extension was created with [Extension CLI](https://oss.mobilefirst.me/extension-cli/)!
 
-## La user story: 
+If you find this software helpful [star](https://github.com/MobileFirstLLC/extension-cli/) or [sponsor](https://github.com/sponsors/MobileFirstLLC) this project.
 
-**En tant que** téléspectateur en retard sur le mondial
-**Je souhaite** regarder un match en replay
-**Afin de** rattraper mon retard et profiter du match en décalé. 
 
-version: 0.1
+### Available Commands
+
+| Commands | Description |
+| --- | --- |
+| `npm run start` | build extension, watch file changes |
+| `npm run build` | generate release version |
+| `npm run docs` | generate source code docs |
+| `npm run clean` | remove temporary files |
+| `npm run test` | run unit tests |
+| `npm run sync` | update config files |
+
+For CLI instructions see [User Guide &rarr;](https://oss.mobilefirst.me/extension-cli/)
+
+### Learn More
+
+**Extension Developer guides**
+
+- [Getting started with extension development](https://developer.chrome.com/extensions/getstarted)
+- Manifest configuration: [version 2](https://developer.chrome.com/extensions/manifest) - [version 3](https://developer.chrome.com/docs/extensions/mv3/intro/)
+- [Permissions reference](https://developer.chrome.com/extensions/declare_permissions)
+- [Chrome API reference](https://developer.chrome.com/docs/extensions/reference/)
+
+**Extension Publishing Guides**
+
+- [Publishing for Chrome](https://developer.chrome.com/webstore/publish)
+- [Publishing for Edge](https://docs.microsoft.com/en-us/microsoft-edge/extensions-chromium/publish/publish-extension)
+- [Publishing for Opera addons](https://dev.opera.com/extensions/publishing-guidelines/)
+- [Publishing for Firefox](https://extensionworkshop.com/documentation/publish/submitting-an-add-on/)
