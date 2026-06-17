@@ -3,9 +3,14 @@
     "version": "1.0",
     "description": "Une extension chrome qui masque les sections indésirables sur M6.",
     "manifest_version": 3,
-    "actiong": {
-        "default_icon": "assets/m6replay.png",
-        "default_popup": "popup.html",
-        "default_title": "M6 Replay Only"
+    "background": {
+        "service_worker": "scripts/background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_icon": "assets/m6replay.png"
     }
 }
