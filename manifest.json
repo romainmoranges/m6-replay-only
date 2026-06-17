@@ -1,6 +1,6 @@
 {
     "name": "M6 Replay Only",
-    "version": "1.0",
+    "version": "0.1",
     "description": "Une extension chrome qui masque les sections indésirables sur M6.",
     "manifest_version": 3,
     "background": {
