@@ -14,7 +14,7 @@
         "build": "xt-build -e prod",
         "build:firefox": "xt-build -e prod -p firefox",
         "clean": "xt-clean",
-        "docs": "xt-docs --config docs-config.json",
+        "docs": "xt-docs",
         "test": "xt-test",
         "coverage": "nyc --reporter=lcov npm run test",
         "sync": "xt-sync"
@@ -36,6 +36,9 @@
                 "README.md",
                 "src"
             ]
+        },
+        "opts": {
+            "destination": "docs/"
         }
     },
     "xtbuild": {
